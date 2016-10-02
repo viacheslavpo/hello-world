@@ -1,0 +1,20 @@
+IBM XIV Interview Test - Files
+
+Our company needs an infrastructure application (written in Java) that performs manipulations on lines of text stored in files. 
+
+The application should run from a command line, perform a single manipulation action and then exit.
+Three parameters are given to the application
+1. Name of the text file that should be manipulated.
+2. Name of the text file to throw the output of the manipulation to.
+3. An action name to perform (i.e. "reverse" which should reverse all lines of the specified text file)
+This application is an infrastructure!
+The application users are developers that add their own new actions to the application without changing the application code. 
+Your tasks:
+1. Provide a top level design of the application
+2. Write the implementation of the application and the implementation of one of the actions:
+a. Sort – sorting the file rows (alphabetically) 
+b. Shuffle – randomly shuffles the file rows
+c. Reverse – reversing the order of the file rows
+3. You may give additional requirements to the user that is adding his/her actions. Try to make it easy as possible to add new actions in both code and requirements. Keep it simple.
+a. Remember, your user is a developer that wants to concentrate on his/her business logic only.
+4. Handle exceptions
